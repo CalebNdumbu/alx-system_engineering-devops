@@ -1,1 +1,1 @@
-This a repo containing basic scripts
+shell basics scripts
