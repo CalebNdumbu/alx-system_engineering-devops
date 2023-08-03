@@ -11,9 +11,9 @@ Basic shell scripts
 4. Display current directory contents, including hidden files (starting with .). Use the long format.
 
 5. Display current directory contents.
-Long format
-with user and group IDs displayed numerically
-And hidden files (starting with .)
+     Long format
+     with user and group IDs displayed numerically
+     And hidden files (starting with .)
 
 6. A script that creates a directory named my_first_directory in the /tmp/ directory.
 
@@ -39,9 +39,8 @@ be created in the current working directory.
 14. A script that copies all the HTML files from the current working directory 
 to the parent of the working directory, but only copy files that did not exist 
 in the parent of the working directory or were newer than the versions in the 
-parent of the working directory.
-
-All HTML files have the extension .html
+parent of the working directory. All HTML files have the extension .html
+    
 100. A script that moves all files beginning with an uppercase letter to the directory /tmp/u.
 
 You can assume that the directory /tmp/u will exist when we will run your script
@@ -52,15 +51,19 @@ You can assume that the directory /tmp/u will exist when we will run your script
 
 You are only allowed to use two spaces (and lines) in your script, not more.
 
-103.  a command that lists all the files and directories of the current directory, separated by commas (,).
+103.  A command that lists all the files and directories of the current directory, separated by commas (,).
 
-Directory names should end with a slash (/)
-Files and directories starting with a dot (.) should be listed
-The listing should be alpha ordered, except for the directories . and .. 
-which should be listed at the very beginning
-Only digits and letters are used to sort; Digits should come first
-You can assume that all the files we will test with will have at least one letter or one digit
-The listing should end with a new line.
+        Directory names should end with a slash (/).
+      
+        Files and directories starting with a dot (.) should be listed.
+      
+        The listing should be alpha ordered, except for the directories . and .. 
+        which should be listed at the very beginning.
+      
+        Only digits and letters are used to sort; Digits should come first.
+      
+        You can assume that all the files we will test with will have at least one letter or one digit
+        The listing should end with a new line.
 
-104. a magic file school.mgc that can be used with the command file to detect School data files. 
+105. A magic file school.mgc that can be used with the command file to detect School data files. 
 School data files always contain the string SCHOOL at offset 0.
