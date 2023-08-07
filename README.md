@@ -1,1 +1,1 @@
-shell basics scripts
+This is a readmi file
