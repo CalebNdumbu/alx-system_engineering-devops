@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# loop through 1 to 10
+# A script that loops through 1 to 10 using while
 
 i=1
 
